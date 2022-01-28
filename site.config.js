@@ -9,11 +9,11 @@ module.exports = {
 
   // basic site info (required)
   name: '지금',
-  domain: 'transitivebullsh.it',
+  domain: '2-now.vercel.app',
   author: '2-NOW',
 
   // open graph metadata (optional)
-  description: 'Example site description',
+  description: "2-NOW's Blog",
   socialImageTitle: '2-NOW',
   socialImageSubtitle: 'Hello World! 👋',
 
