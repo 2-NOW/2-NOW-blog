@@ -9,7 +9,7 @@ module.exports = {
 
   // basic site info (required)
   name: '지금',
-  domain: '2-now.vercel.app',
+  domain: '2-now.xyz',
   author: '2-NOW',
 
   // open graph metadata (optional)
@@ -33,7 +33,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
+  utterancesGitHubRepo: '2-NOW/comments',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
@@ -48,5 +48,8 @@ module.exports = {
   //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
-  pageUrlOverrides: null
+  pageUrlOverrides: {
+    '/about': 'about-1d54a563c89a40cfa63d66ece2686733',
+    '/tags': 'tags-866112500b5a459694084c1cecfb75c3'
+  }
 }
