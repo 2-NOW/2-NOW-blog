@@ -15,7 +15,7 @@ module.exports = {
   // open graph metadata (optional)
   description: "2-NOW's Blog",
   socialImageTitle: "2-NOW's Blog",
-  socialImageSubtitle: 'Hello World! 👋',
+  socialImageSubtitle: 'Hello World👋',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
