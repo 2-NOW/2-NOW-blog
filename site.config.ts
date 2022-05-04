@@ -2,32 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-<<<<<<< HEAD
   rootNotionPageId: '762a0bbfb4684cccacf6b17a243031de',
-=======
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
->>>>>>> 2bf2ff927cc5bb01d5ee8176f56a91fbae317969
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: 'fde5ac74eea345278f004482710e1af3',
 
   // basic site info (required)
-<<<<<<< HEAD
   name: '지금',
   domain: '2-now.xyz',
   author: '2-NOW',
 
   // open graph metadata (optional)
   description: "2-NOW's Blog",
-=======
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
-
-  // open graph metadata (optional)
-  description: 'Personal site of Travis Fischer aka Transitive Bullshit',
->>>>>>> 2bf2ff927cc5bb01d5ee8176f56a91fbae317969
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
