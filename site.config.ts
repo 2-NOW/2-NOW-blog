@@ -10,7 +10,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '지금',
+  name: '2-NOW',
   domain: '2-now.xyz',
   author: '2-NOW',
 
@@ -46,9 +46,9 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  pageUrlAdditions: {
-    '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
-  },
+  // pageUrlAdditions: {
+  //   '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
+  // },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
