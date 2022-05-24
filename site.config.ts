@@ -6,7 +6,8 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'fde5ac74eea345278f004482710e1af3',
+  // rootNotionSpaceId: 'fde5ac74eea345278f004482710e1af3',
+  rootNotionSpaceId: null,
 
   // basic site info (required)
   name: '지금',
@@ -23,7 +24,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://transitivebullsh.it/page-icon.png',
+  defaultPageIcon: 'https://transitivebullsh.it/page-cover.jpg',
   defaultPageCover: 'https://transitivebullsh.it/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
@@ -55,11 +56,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: '8d0062776d0c4afca96eb1ace93a7538'
-    },
-    {
-      title: 'Contact',
-      pageId: '9a7ddf2973444067bbc5ce0a4e0e0058'
+      pageId: '1d54a563c89a40cfa63d66ece2686733'
     }
+    // {
+    //   title: 'Contact',
+    //   pageId: '9a7ddf2973444067bbc5ce0a4e0e0058'
+    // }
   ]
 })
